@@ -1,5 +1,5 @@
 # uint8[] data
-char[] image
+uint8[] image
 float64 resolution
 float64 x
 float64 y
