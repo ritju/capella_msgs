@@ -40,6 +40,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/InfraredFaceDetection.srv"
   "msg/ChargeState.msg"
   "msg/IrdetectionStatus.msg"
+  "msg/ChargeMarkerVisble.msg"
   DEPENDENCIES nav_msgs
   DEPENDENCIES sensor_msgs
   DEPENDENCIES std_msgs
