@@ -35,6 +35,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AtomizeSwitchCtrStu.msg"
   "msg/IrData.msg"
   "msg/ContactDriveStu.msg"
+  "msg/SingleDetector.msg"
+  "msg/DetectResult.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   
