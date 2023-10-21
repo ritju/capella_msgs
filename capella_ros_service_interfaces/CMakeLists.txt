@@ -43,6 +43,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ChargeMarkerVisible.msg"
   "msg/HazardDetection.msg"
   "msg/HazardDetectionVector.msg"
+  "action/Undock.action"
   DEPENDENCIES nav_msgs
   DEPENDENCIES sensor_msgs
   DEPENDENCIES std_msgs
