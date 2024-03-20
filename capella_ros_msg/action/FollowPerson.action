@@ -1,0 +1,10 @@
+# Request
+# 开始/停止追踪目标： true，开始；false，停止
+bool follow_signal
+
+---
+# Result
+# 退出行人追踪模式, true: 退出; false: 未退出
+bool finish_follow
+
+---

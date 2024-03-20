@@ -45,6 +45,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ChargePileWifi.srv"
   #---action---
   "action/RelocalizationSpin.action"
+  "action/FollowPerson.action"
   
   DEPENDENCIES sensor_msgs geometry_msgs
  )
