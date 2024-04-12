@@ -1,0 +1,3 @@
+bool request_stu  #wifi SSID code
+---
+bool response_stu

@@ -43,6 +43,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DeviceStatus.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
+  "srv/TurnoffPcPower.srv"
   #---action---
   "action/RelocalizationSpin.action"
   "action/FollowPerson.action"
