@@ -41,6 +41,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CrowdStatistics.msg"
   "msg/AttitudePar.msg"
   "msg/DeviceStatus.msg"
+  "msg/TrackPersonBoxes.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
