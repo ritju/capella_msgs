@@ -1,10 +1,11 @@
 # Request
-# 开始/停止追踪目标： true，开始；false，停止
-bool follow_signal
-
+# 启动跟随时，搜索跟随目标超时时间
+float32 start_timeout
+# 跟随中，搜索跟随目标超时时间
+float32 execute_timeout
 ---
 # Result
-# 退出行人追踪模式, true: 退出; false: 未退出
-bool finish_follow
+# 执行跟随时超时退出：true; 启动跟随时超时退出：false
+bool exit
 
 ---
