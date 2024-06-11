@@ -9,3 +9,8 @@ float32 execute_timeout
 bool exit
 
 ---
+# 目标跟随的执行状态:
+# 0: 正在寻找目标;
+# 1: 正在跟随目标;
+# 2: 目标丢失，正在重新寻找目标
+uint8 status
