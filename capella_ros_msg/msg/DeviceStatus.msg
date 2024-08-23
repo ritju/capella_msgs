@@ -5,3 +5,5 @@ uint8  emer_stop_stu   #急停按钮开关状态:0x00:未按下急停开关;0x01
 uint8  inverter_stu    #逆变器的开启状态:0x00:逆变器未上电;0x01:逆变器已上电
 uint8 vacuum_cleaner_stu #扫地模式开关状态:0x00:扫地模式停止工作;0x01:扫地模式开始工作
 uint8 wash_cleaner_stu #洗地模式开关状态:0x00:洗地模式停止工作;0x01:洗地模式开始工作
+bool charging_stu #充电状态，false是未充电，true是正在充电
+int16 charging_current #电池的充放电电流，带符号型16进制数，充电为正，放电为负，单位：10mA
