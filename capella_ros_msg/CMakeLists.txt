@@ -25,6 +25,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 
 #添加消息文件和依赖
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -44,6 +45,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrackPersonBox.msg"
   "msg/TrackPersonBoxes.msg"
   "msg/UwbData.msg"
+  "msg/RobotPoseWithNamespace.msg"
+  "msg/PlanWithNamespace.msg"
+  "msg/RobotInfo.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
@@ -51,7 +55,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/RelocalizationSpin.action"
   "action/FollowPerson.action"
   
-  DEPENDENCIES sensor_msgs geometry_msgs
+  DEPENDENCIES sensor_msgs geometry_msgs nav_msgs
  )
 
 if(BUILD_TESTING)
