@@ -1,3 +1,2 @@
-std_msgs/Header header
+geometry_msgs/PoseStamped pose
 int8 class_id
-geometry_msgs/Pose pose
