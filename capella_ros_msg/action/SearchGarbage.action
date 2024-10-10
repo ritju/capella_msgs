@@ -1,4 +1,6 @@
 # Request
+# 垃圾相对机器人的位姿
+geometry_msgs/PoseStamped pose
 ---
 # Result
 ---
