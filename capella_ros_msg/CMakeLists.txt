@@ -48,12 +48,15 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotPoseWithNamespace.msg"
   "msg/PlanWithNamespace.msg"
   "msg/RobotInfo.msg"
+  "msg/GarbageDetect.msg"
+  "msg/CleaningConfig.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
   #---action---
   "action/RelocalizationSpin.action"
   "action/FollowPerson.action"
+  "action/SearchGarbage.action"
   
   DEPENDENCIES sensor_msgs geometry_msgs nav_msgs
  )
