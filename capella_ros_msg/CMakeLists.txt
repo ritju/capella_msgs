@@ -51,6 +51,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/GarbageDetect.msg"
   "msg/CleaningConfig.msg"
   "msg/PassedPosesIndex.msg"
+  "msg/MultiRobotsInfo.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
