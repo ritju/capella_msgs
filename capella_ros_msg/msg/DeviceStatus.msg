@@ -15,4 +15,4 @@ int16 charging_current #电池的充放电电流，带符号型16进制数，充
 float32 clean_water_tank_level #净水箱水位，取值范围为[0.0, 1.0]。0表示水箱为空，1表示水箱已满。
 float32 wastewater_tank_level #污水箱水位，取值范围为[0.0, 1.0]。0表示水箱为空，1表示水箱已满。
 bool garbage_full_stu #垃圾箱装满状态，false是未装满，true是装满
-float32 detergent_level #洗涤剂液位，取值范围为[0.0, 1.0]。0表示水箱为空，1表示水箱已满。
+float32 detergent_level #洗涤剂液位，取值范围为[0.0, 1.0]。0表示为空，1表示已满。
