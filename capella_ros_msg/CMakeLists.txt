@@ -59,6 +59,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/RelocalizationSpin.action"
   "action/FollowPerson.action"
   "action/SearchGarbage.action"
+  "action/Empty.action"
   
   DEPENDENCIES sensor_msgs geometry_msgs nav_msgs
  )
