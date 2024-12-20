@@ -60,6 +60,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/FollowPerson.action"
   "action/SearchGarbage.action"
   "action/Empty.action"
+  "action/DriveIntoElevator.action"
+  "action/DriveOutofElevator.action"
+  "action/MoveToGoal.action"
   
   DEPENDENCIES sensor_msgs geometry_msgs nav_msgs
  )
