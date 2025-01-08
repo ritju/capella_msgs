@@ -1,5 +1,5 @@
 # Request
-# 垃圾相对机器人的位姿
+# 垃圾的位姿
 GarbageDetectSingle[] garbages
 ---
 # Result
