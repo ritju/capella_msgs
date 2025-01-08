@@ -52,6 +52,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CleaningConfig.msg"
   "msg/PassedPosesIndex.msg"
   "msg/MultiRobotsInfo.msg"
+  "msg/GarbageDetectSingle.msg"
+  "msg/GarbageDetectArray.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
@@ -63,6 +65,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/DriveIntoElevator.action"
   "action/DriveOutofElevator.action"
   "action/MoveToGoal.action"
+  "action/IntelligentCleanGarbage.action"
+  
   
   DEPENDENCIES sensor_msgs geometry_msgs nav_msgs
  )
