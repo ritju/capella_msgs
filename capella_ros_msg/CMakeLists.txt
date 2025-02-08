@@ -48,6 +48,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotPoseWithNamespace.msg"
   "msg/PlanWithNamespace.msg"
   "msg/RobotInfo.msg"
+  "msg/RobotInfos.msg"
   "msg/GarbageDetect.msg"
   "msg/CleaningConfig.msg"
   "msg/PassedPosesIndex.msg"
