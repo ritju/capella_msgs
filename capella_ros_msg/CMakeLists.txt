@@ -68,6 +68,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/DriveOutofElevator.action"
   "action/MoveToGoal.action"
   "action/IntelligentCleanGarbage.action"
+  "action/FindCarAvoidancePoint.action"
   
   
   DEPENDENCIES sensor_msgs geometry_msgs nav_msgs

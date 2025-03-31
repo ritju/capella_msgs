@@ -1,0 +1,12 @@
+# Request
+# polygons通行区域的四个顶点
+geometry_msgs/Polygon[] polygons
+# 汽车的长,宽
+float32 length
+float32 width
+---
+# Result
+# 汽车相对map坐标系的位姿
+geometry_msgs/PoseStamped pose
+---
+# Feedback
