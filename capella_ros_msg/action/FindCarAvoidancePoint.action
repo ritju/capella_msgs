@@ -2,8 +2,7 @@
 # polygons通行区域的四个顶点
 geometry_msgs/Polygon[] polygons
 # 汽车的长,宽
-float32 length
-float32 width
+geometry_msgs/Vector3 car_size
 ---
 # Result
 # 汽车相对map坐标系的位姿
