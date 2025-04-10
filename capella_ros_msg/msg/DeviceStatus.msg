@@ -23,4 +23,7 @@ bool fill_light_run_stu #补光灯运行状态： false是未运行，true是正
 bool device_motor_enable_stu #驱动轮电机使能状态：false是失能状态，true是使能状态
 
 #驱动轮电机命令状态：0x00:无命令，0x01:配置使能，0x02:配置失能，0x03：清楚故障，0x04:设置速度，0x05:驻车配置
-uint8 device_motor_set_cmd_flag 
+uint8 device_motor_set_cmd_flag
+
+uint8 s_roll_cleaner_stu #室外（滾刷）开关状态:0x00:滚刷停止工作;0x01:滚刷正在工作
+bool spray_water_stu #室外洒水工作状态： false是未放清水，true是正在放清水
