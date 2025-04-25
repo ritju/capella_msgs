@@ -61,6 +61,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
+  "srv/IsCarPassable.srv"
   #---action---
   "action/RelocalizationSpin.action"
   "action/FollowPerson.action"
@@ -71,6 +72,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/MoveToGoal.action"
   "action/IntelligentCleanGarbage.action"
   "action/FindCarAvoidancePoint.action"
+  "action/Welt.action"
   
   
   DEPENDENCIES sensor_msgs geometry_msgs nav_msgs
