@@ -58,6 +58,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HighlightZones.msg"
   "msg/CarDetectArray.msg"
   "msg/CarDetectSingle.msg"
+  "msg/SingleRecognition.msg"
+  "msg/Recognitions.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
