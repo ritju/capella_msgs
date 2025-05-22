@@ -4,8 +4,10 @@ uint16 right_motor_stu #右侧电机状态
 uint8  emer_stop_stu   #急停按钮开关状态:0x00:未按下急停开关;0x01:按下急停开关
 uint8  inverter_stu    #逆变器的开启状态:0x00:逆变器未上电;0x01:逆变器已上电
 uint8 vacuum_cleaner_stu #扫地模式开关状态:0x00:扫地模式停止工作;0x01:扫地模式开始工作
-uint8 roll_cleaner_stu #洗地模式滚刷开关状态:0x00:洗地滚刷停止工作;0x01:洗地滚刷开始工作
-uint8 suct_water_cleaner_stu #吸污水泵开关状态：0x00:吸污水停止工作;0x01:吸污水开始工作
+uint8 roll_pushrod_stu #洗地模式滚刷推杆开关状态:0x00:洗地滚刷推杆停止工作;0x01:洗地滚刷推杆开始工作
+uint8 roll_motor_stu #洗地模式滚刷电机开关状态:0x00:洗地滚刷电机停止工作;0x01:洗地滚刷电机开始工作
+uint8 suct_pushrod_stu #吸污水泵推杆开关状态：0x00:吸污水推杆停止工作;0x01:吸污水推杆开始工作
+uint8 suct_motor_stu #吸污水泵电机开关状态：0x00:吸污水电机停止工作;0x01:吸污水电机开始工作
 bool drainage_water_stu #排污水工作状态：false是未排污水，true是正在排污水
 uint8 add_water_stu #加水工作状态：0x00：未加水，0x01:自动加水，0x02:手动加水
 uint8 pilot_lamp_stu #指示灯运行状态，0x00：关闭指示灯，0x01:红灯亮，0x02:绿灯亮，0x03:黄灯亮
@@ -26,4 +28,5 @@ bool device_motor_enable_stu #驱动轮电机使能状态：false是失能状态
 uint8 device_motor_set_cmd_flag
 
 uint8 s_roll_cleaner_stu #室外（滾刷）开关状态:0x00:滚刷停止工作;0x01:滚刷正在工作
+uint8 s_suction_cleaner_stu #室外（吸尘和垃圾）开关状态:0x00:停止工作;0x01:正在工作
 bool spray_water_stu #室外洒水工作状态： false是未放清水，true是正在放清水
