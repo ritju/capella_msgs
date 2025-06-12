@@ -29,3 +29,11 @@ uint8 device_motor_set_cmd_flag
 
 uint8 s_roll_cleaner_stu #室外（滾刷）开关状态:0x00:滚刷停止工作;0x01:滚刷正在工作
 bool spray_water_stu #室外洒水工作状态： false是未放清水，true是正在放清水
+
+int16 left_wheel_speed #左侧轮转速，单位r/min，放大10倍（保留一位小数），正转为前进（正转为正），反转为后退
+int16 right_wheel_speed #右侧轮转速，单位r/min，放大10倍（保留一位小数）
+
+bool electric_brake_run_stu #电磁刹运行状态，true为刹车，false为松开刹车
+
+int8 left_motor_temp #中菱电机的左侧电机温度，-127~127，单位1°
+int8 right_motor_temp #中菱电机的右侧电机温度，-127~127，单位1°
