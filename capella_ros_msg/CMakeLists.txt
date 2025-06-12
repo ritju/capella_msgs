@@ -27,7 +27,7 @@ find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 
-#添加消息文件和依赖
+#添加消息文件和依�?
 rosidl_generate_interfaces(${PROJECT_NAME}
   #---msg---
   "msg/Battery.msg"
@@ -60,6 +60,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CarDetectSingle.msg"
   "msg/SingleRecognition.msg"
   "msg/Recognitions.msg"
+  "msg/WheelSpeed.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
