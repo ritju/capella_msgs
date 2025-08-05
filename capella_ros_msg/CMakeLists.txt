@@ -61,6 +61,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SingleRecognition.msg"
   "msg/Recognitions.msg"
   "msg/WheelSpeed.msg"
+  "msg/PushAndMotorCtrCmd.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"

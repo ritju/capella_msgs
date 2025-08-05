@@ -22,15 +22,22 @@ bool clear_water_stu #清水箱工作状态： false是未放清水，true是正
 uint8 turn_led_stu #转向灯状态：0x00：转向灯全灭 0x01：左转灯亮 0x02:右转灯亮 0x03：双闪灯亮
 bool side_motor_run_stu #边刷电机工作状态： false是未运行，true是正在运行
 bool fill_light_run_stu #补光灯运行状态： false是未运行，true是正在运行
-bool device_motor_enable_stu #驱动轮电机使能状态：false是失能状态，true是使能状态
+bool device_motor_enable_stu #中菱驱动轮电机使能状态：false是失能状态，true是使能状态
 
 #驱动轮电机命令状态：0x00:无命令，0x01:配置使能，0x02:配置失能，0x03：清楚故障，0x04:设置速度，0x05:驻车配置
 uint8 device_motor_set_cmd_flag
 
 uint8 s_roll_cleaner_stu #室外（滾刷）开关状态:0x00:滚刷停止工作;0x01:滚刷正在工作
+uint8 s_roll_pushrod_stu #室外（滾刷）推杆开关状态:0x00:洗地滚刷推杆升起状态;0x01:洗地滚刷推杆降下状态
+uint8 s_roll_motor_stu #室外（滾刷）电机开关状态:0x00:洗地滚刷电机停止工作;0x01:洗地滚刷电机开始工作
+
 bool spray_water_stu #室外洒水工作状态： false是未放清水，true是正在放清水
 
 bool electric_brake_run_stu #电磁刹运行状态，true为刹车，false为松开刹车
 
 int8 left_motor_temp #中菱电机的左侧电机温度，-127~127，单位1°
 int8 right_motor_temp #中菱电机的右侧电机温度，-127~127，单位1°
+uint16 side_motor_speed #边刷电机转速，单位r/min
+bool rubber_push_stu #胶皮推杆电机运行状态，bool型，false为抬升状态，true为降下状态
+uint16 s_roll_motor_speed #室外滚刷电机转速，单位r/min
+bool side_push_run_stu #边刷推杆运行状态，bool型，false为抬升状态，true为降下状态
