@@ -41,3 +41,6 @@ uint16 side_motor_speed #边刷电机转速，单位r/min
 bool rubber_push_stu #胶皮推杆电机运行状态，bool型，false为抬升状态，true为降下状态
 uint16 s_roll_motor_speed #室外滚刷电机转速，单位r/min
 bool side_push_run_stu #边刷推杆运行状态，bool型，false为抬升状态，true为降下状态
+
+uint8 mode_run_stu #0x00-自动模式;0x03-慢速前进；0x04-快速前进；0x05-慢速后退
+uint8 mode_set_enable_stu #0x06-旋钮配置模式解锁；0x07-旋钮配置模式锁定
