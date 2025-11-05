@@ -1,0 +1,2 @@
+bool passable
+CarDetectSingle car_information
