@@ -1,2 +1,2 @@
 bool passable
-CarDetectSingle car_information
+CarDetectArray car_information
