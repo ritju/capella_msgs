@@ -63,3 +63,5 @@ uint16 right_side_fault_stu #右边刷电机故障状态
 uint16 s1_roll_fault_stu #S1滚刷电机故障状态
 uint16 left_disc_fault_stu #g3左盘刷故障状态
 uint16 right_disc_fault_stu #g3右盘刷故障状态
+
+uint16 msg_var #消息版本
