@@ -55,6 +55,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MultiRobotsInfo.msg"
   "msg/GarbageDetectSingle.msg"
   "msg/GarbageDetectArray.msg"
+  "msg/GarbageDetectbbox.msg"
   "msg/HighlightZones.msg"
   "msg/CarDetectArray.msg"
   "msg/CarDetectSingle.msg"
