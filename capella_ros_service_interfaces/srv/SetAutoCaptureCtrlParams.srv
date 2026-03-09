@@ -1,0 +1,10 @@
+float32 time_interval     # 最近两次采集的时间间隔
+float32 time_still        # 图像保持不动的时间
+float32 pose_dis          # 图像中标定板位置变化阈值
+float32 pose_direction    # 图像中标定板旋转角度变化阀值
+uint32 calib_num_min      # 最少采集的图片数量
+uint32 calib_num_max      # 最多采集的图片数量
+float32 sharpness_thr     # 图像锐阈值
+---
+bool success        # 是否成功
+string infos        # 返回的成功或失败的消息

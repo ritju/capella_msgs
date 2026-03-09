@@ -1,0 +1,4 @@
+bool show         # true：显示覆盖情况，false: 不显示覆盖情况
+---
+bool success      # 是否成功
+string infos      # 返回的成功或失败的消息

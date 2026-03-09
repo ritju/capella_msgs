@@ -1,0 +1,4 @@
+---
+bool success                        # 是否成功
+sensor_msgs/CameraInfo  camera_info # 相机内参信息
+
