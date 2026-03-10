@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(capella_ros_service_interfaces)
+project(camera_calibrate_msgs)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -25,26 +25,19 @@ find_package(sensor_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/SwitchMode.srv"
-  "srv/CartographerMode.srv"
-  "srv/NavLaunchMode.srv"
-  "srv/StopNavAndCarto.srv"
-  # "srv/StartAndStopCharge.srv"
-  # "srv/DockingChargingPile.srv"
-  "msg/MissionStatus.msg"
-  "msg/PersonDistance.msg"
-  "msg/CompressedOccupancyGrid.msg"
-  "msg/IrimageData.msg"
-  "msg/IrtemperatureData.msg"
-  "msg/IrsdkData.msg"
-  "srv/InfraredFaceDetection.srv"
-  "msg/ChargeState.msg"
-  "msg/IrdetectionStatus.msg"
-  "msg/ChargeMarkerVisible.msg"
-  "msg/HazardDetection.msg"
-  "msg/HazardDetectionVector.msg"
-  "msg/SensorDataStatus.msg"
-  "action/Undock.action"
+  "msg/FrameCaptured.msg"
+  "srv/LaunchCamera.srv"
+  "srv/SetAutoCaptureCtrlParams.srv"
+  "srv/GetAutoCaptureCtrlParams.srv"
+  "srv/GenerateCameraIntrinsics.srv"
+  "srv/SwitchCaptureMode.srv"
+  "srv/SwitchCoverageMode.srv"
+  "srv/DeleteFrame.srv"
+  "srv/ManualCapture.srv"
+  "srv/GoOn.srv"
+  "srv/Confirm.srv"
+  "srv/RequestAllFrames.srv"
+  "srv/AdditionalCapture.srv"
   DEPENDENCIES nav_msgs
   DEPENDENCIES sensor_msgs
   DEPENDENCIES std_msgs

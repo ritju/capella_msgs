@@ -1,0 +1,5 @@
+bool valid  # true: 使用这张图片，false: 不使用这张图片
+---
+bool success  # 是否成功
+string infos  # 成功或失败的原因
+

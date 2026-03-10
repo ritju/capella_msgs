@@ -1,0 +1,6 @@
+---
+bool success  # 是否手动采集成功
+string infos  # 成功或失败的原因
+sensor_msgs/Image image  # 手动采集的图像数据
+
+
