@@ -37,6 +37,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GenerateCameraIntrinsics.srv"
   "srv/SwitchCaptureMode.srv"
   "srv/SwitchCoverageMode.srv"
+  "srv/DeleteCurrentFrame.srv"
+  "srv/DeleteAllFrames.srv"
   "msg/MissionStatus.msg"
   "msg/PersonDistance.msg"
   "msg/CompressedOccupancyGrid.msg"
