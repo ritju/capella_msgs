@@ -26,18 +26,19 @@ find_package(nav_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FrameCaptured.msg"
-  "srv/LaunchCamera.srv"
-  "srv/SetAutoCaptureCtrlParams.srv"
-  "srv/GetAutoCaptureCtrlParams.srv"
+  "srv/AdditionalCapture.srv"
+  "srv/Confirm.srv"
+  "srv/DeleteFrame.srv"
   "srv/GenerateCameraIntrinsics.srv"
+  "srv/GetAutoCaptureCtrlParams.srv"
+  "srv/GoOn.srv"
+  "srv/LaunchCamera.srv"
+  "srv/ManualCapture.srv"
+  "srv/RequestAllFrames.srv"
+  "srv/SetAutoCaptureCtrlParams.srv"
+  "srv/StopCalibration.srv"
   "srv/SwitchCaptureMode.srv"
   "srv/SwitchCoverageMode.srv"
-  "srv/DeleteFrame.srv"
-  "srv/ManualCapture.srv"
-  "srv/GoOn.srv"
-  "srv/Confirm.srv"
-  "srv/RequestAllFrames.srv"
-  "srv/AdditionalCapture.srv"
   DEPENDENCIES nav_msgs
   DEPENDENCIES sensor_msgs
   DEPENDENCIES std_msgs
