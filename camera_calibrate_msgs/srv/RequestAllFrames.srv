@@ -1,2 +1,3 @@
 ---
-FrameCaptured[] frames  # 已经采集的所有图片数据
+FrameCaptured[] frames         # 已经采集的所有图片数据
+string images_folder_path      # 图像文件夹路径
