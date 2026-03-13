@@ -1,0 +1,4 @@
+
+---
+bool success               # 是否停止成功
+string infos               # 停止失败时的错误信息

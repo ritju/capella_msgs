@@ -1,4 +1,4 @@
-uint8 TOPIC=0
+uint8 CAMERA=0
 uint8 VIDEO=1
 uint8 IMAGES=2
 
@@ -9,7 +9,7 @@ string images_folder_path      # 图像文件夹路径
 string camera_name             # 相机名字
 uint32 resolution_width        # 图像宽度
 uint32 resolution_height       # 图像高度
-uint32 fps                     # 帧率，默认用10
+float32 fps                    # 帧率，默认用10
 ---
 bool success               # 是否启动成功
 string infos               # 启动失败时的错误信息
