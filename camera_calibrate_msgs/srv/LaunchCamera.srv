@@ -14,7 +14,7 @@ float32 fps                    # 帧率，默认用10
 bool success               # 是否启动成功
 string infos               # 启动失败时的错误信息
 string topic_origin        # 原始图像话题
-string topic_undistroted   # 校畸变后的图像话题
+string topic_undistorted   # 校畸变后的图像话题
 
 
 
