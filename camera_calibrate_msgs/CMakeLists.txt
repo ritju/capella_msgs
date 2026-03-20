@@ -29,7 +29,6 @@ find_package(rclcpp_action REQUIRED)
 find_package(rclcpp_components REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FrameCaptured.msg"
-  "srv/AdditionalCapture.srv"
   "srv/Confirm.srv"
   "srv/DeleteFrame.srv"
   "srv/GenerateCameraIntrinsics.srv"
@@ -40,6 +39,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/RequestAllFrames.srv"
   "srv/SetAutoCaptureCtrlParams.srv"
   "srv/StopCalibration.srv"
+  "srv/StopCamera.srv"
   "srv/SwitchCaptureMode.srv"
   "srv/SwitchCoverageMode.srv"
   DEPENDENCIES nav_msgs

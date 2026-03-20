@@ -1,3 +1,0 @@
----
-bool success  # 是否成功
-string infos  # 成功或失败的原因

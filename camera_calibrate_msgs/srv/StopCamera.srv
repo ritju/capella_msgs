@@ -1,0 +1,3 @@
+---
+bool success        # 成功：true, 失败：false
+string infos        # 成功或失败的信息
