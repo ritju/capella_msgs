@@ -29,6 +29,7 @@ find_package(rclcpp_action REQUIRED)
 find_package(rclcpp_components REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FrameCaptured.msg"
+  "msg/NumberCaptured.msg"
   "srv/Confirm.srv"
   "srv/DeleteFrame.srv"
   "srv/GenerateCameraIntrinsics.srv"
