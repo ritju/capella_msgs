@@ -26,6 +26,7 @@ find_package(nav_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FrameCaptured.msg"
+  "msg/NumberCaptured.msg"
   "srv/Confirm.srv"
   "srv/DeleteFrame.srv"
   "srv/GenerateCameraIntrinsics.srv"
