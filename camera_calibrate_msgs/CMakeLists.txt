@@ -27,6 +27,9 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FrameCaptured.msg"
   "msg/NumberCaptured.msg"
+  "msg/CameraInfo.msg"
+  "msg/CalibrationInfo.msg"
+  "msg/CameraCalibrateResult.msg"
   "srv/Confirm.srv"
   "srv/DeleteFrame.srv"
   "srv/GenerateCameraIntrinsics.srv"
@@ -35,6 +38,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/LaunchCamera.srv"
   "srv/ManualCapture.srv"
   "srv/RequestAllFrames.srv"
+  "srv/RequestCalibrationProgress.srv"
   "srv/SetAutoCaptureCtrlParams.srv"
   "srv/StopCalibration.srv"
   "srv/StopCamera.srv"
