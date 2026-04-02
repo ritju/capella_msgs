@@ -1,0 +1,3 @@
+CameraInfo[] camera_infos
+---
+CameraCalibrateResult[] camera_calibrate_results
