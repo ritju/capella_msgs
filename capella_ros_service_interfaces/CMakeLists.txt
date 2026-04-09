@@ -45,6 +45,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HazardDetectionVector.msg"
   "msg/SensorDataStatus.msg"
   "action/Undock.action"
+  "srv/IsInChargerRange.srv"
+  "srv/StartDetectApriltag.srv"
+  "srv/StopDetectApriltag.srv"
+  "srv/GetDetectApriltagStatus.srv"
   DEPENDENCIES nav_msgs
   DEPENDENCIES sensor_msgs
   DEPENDENCIES std_msgs
