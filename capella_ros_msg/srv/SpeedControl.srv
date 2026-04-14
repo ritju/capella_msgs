@@ -1,0 +1,10 @@
+bool linear       # true:测试线速度，false: 测试角速度
+bool use_acc      # 是否使用加速度
+float64 acc       # 加速度值
+float64 start     # 起始速度
+float64 end       # 结束速度
+---
+bool success      # 是否成功
+string reason     # 失败的原因
+float64 time      # 起始速度到结束速度的时间（秒）
+float64 dist      # 起始速度到结束速度经过的距离（米或弧度）

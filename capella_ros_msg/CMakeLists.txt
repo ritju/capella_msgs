@@ -68,6 +68,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
   "srv/IsCarPassable.srv"
+  "srv/SpeedControl.srv"
   #---action---
   "action/RelocalizationSpin.action"
   "action/FollowPerson.action"
