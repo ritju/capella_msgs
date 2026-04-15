@@ -26,12 +26,14 @@ find_package(nav_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SwitchMode.srv"
+  "srv/SwitchResolution.srv"
   "srv/CartographerMode.srv"
   "srv/NavLaunchMode.srv"
   "srv/StopNavAndCarto.srv"
   # "srv/StartAndStopCharge.srv"
   # "srv/DockingChargingPile.srv"
   "msg/MissionStatus.msg"
+  "msg/RgbCameraResolution.msg"
   "msg/PersonDistance.msg"
   "msg/CompressedOccupancyGrid.msg"
   "msg/IrimageData.msg"
