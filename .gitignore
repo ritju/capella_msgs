@@ -1,0 +1,10 @@
+# Exclude all directories except the specified message packages
+*
+!capella_ros_service_interfaces/
+!capella_ros_msg/
+!garage_utils_msgs/
+!camera_calibrate_msgs/
+
+# Existing exclusions
+.vscode/
+build/
