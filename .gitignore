@@ -1,4 +1,5 @@
 camera_calib_tool_gui/
 vehicle_information_node/
+ground_segmentation_cuda/
 .vscode/
 build/
