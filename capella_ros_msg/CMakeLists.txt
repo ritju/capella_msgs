@@ -64,6 +64,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PushAndMotorCtrCmd.msg"
   "msg/LaneCenterPaths.msg"
   "msg/CarPassable.msg"
+  "msg/EllipseArcSegment.msg"
+  "msg/LineSegment.msg"
+  "msg/MultiCurve.msg"
+  "msg/CurveSegment.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
