@@ -1,7 +1,4 @@
-# 参考位姿（定义线段所在平面及起点位置）
-geometry_msgs/Pose frame
-
-# 弧长起止位置（局部坐标系）
+# 沿 MultiCurve 的累计路径起止位置（从曲线原点到本段起止点的距离）
 float64 s_start
 float64 s_end
 
