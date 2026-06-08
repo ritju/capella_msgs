@@ -68,6 +68,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LineSegment.msg"
   "msg/MultiCurve.msg"
   "msg/CurveSegment.msg"
+  "msg/BSplineSegment.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
