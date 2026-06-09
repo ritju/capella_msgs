@@ -2,17 +2,17 @@
 geometry_msgs/Pose frame
 
 # 沿 MultiCurve 的累计路径起止位置（从曲线原点到本段起止点的距离）
-float64 s_start
-float64 s_end
+float32 s_start
+float32 s_end
 
 # 椭圆半长轴（米）
-float64 a
+float32 a
 # 椭圆半短轴（米）
-float64 b
+float32 b
 
 # 起止角度（弧度，相对于椭圆局部坐标系 X 轴）
-float64 theta_start
-float64 theta_end
+float32 theta_start
+float32 theta_end
 
 # 凹凸性（true=凸，false=凹，相对于局部地面坐标系的 Z 轴法向）
 bool is_convex
