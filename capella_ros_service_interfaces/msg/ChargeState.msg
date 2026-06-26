@@ -5,3 +5,4 @@ bool is_charging
 bool is_docking
 bool is_waterflooding
 string water_mode
+bool manual_enable_stu
