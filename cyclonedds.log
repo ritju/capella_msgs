@@ -1,0 +1,143 @@
+1781177111.902003 [0]       ros2: config: Domain/General/MulticastRecvNetworkInterfaceAddresses/#text: preferred {}
+1781177111.902023 [0]       ros2: config: Domain/General/Interfaces/NetworkInterface[@autodetermine]: false {}
+1781177111.902028 [0]       ros2: config: Domain/General/Interfaces/NetworkInterface[@name]: docker0 {1}
+1781177111.902031 [0]       ros2: config: Domain/General/Interfaces/NetworkInterface[@address]:  {}
+1781177111.902035 [0]       ros2: config: Domain/General/Interfaces/NetworkInterface[@priority]: default {1}
+1781177111.902038 [0]       ros2: config: Domain/General/Interfaces/NetworkInterface[@prefer_multicast]: false {}
+1781177111.902042 [0]       ros2: config: Domain/General/Interfaces/NetworkInterface[@presence_required]: true {}
+1781177111.902046 [0]       ros2: config: Domain/General/Interfaces/NetworkInterface[@multicast]: default {1}
+1781177111.902050 [0]       ros2: config: Domain/General/ExternalNetworkAddress/#text: auto {}
+1781177111.902054 [0]       ros2: config: Domain/General/ExternalNetworkMask/#text: 0.0.0.0 {}
+1781177111.902058 [0]       ros2: config: Domain/General/AllowMulticast/#text: default {1}
+1781177111.902061 [0]       ros2: config: Domain/General/MulticastTimeToLive/#text: 32 {}
+1781177111.902065 [0]       ros2: config: Domain/General/DontRoute/#text: false {}
+1781177111.902069 [0]       ros2: config: Domain/General/Transport/#text: udp {}
+1781177111.902072 [0]       ros2: config: Domain/General/EnableMulticastLoopback/#text: true {}
+1781177111.902076 [0]       ros2: config: Domain/General/MaxMessageSize/#text: 65500 B {1}
+1781177111.902079 [0]       ros2: config: Domain/General/MaxRexmitMessageSize/#text: 1456 B {}
+1781177111.902082 [0]       ros2: config: Domain/General/FragmentSize/#text: 1344 B {}
+1781177111.902086 [0]       ros2: config: Domain/General/RedundantNetworking/#text: false {}
+1781177111.902090 [0]       ros2: config: Domain/General/EntityAutoNaming/#text: empty {}
+1781177111.902095 [0]       ros2: config: Domain/General/EntityAutoNaming[@seed]: 2964856880 2591400849 3025473337 3276008282 3439241963 106152791 3454784692 2103120307 {}
+1781177111.902101 [0]       ros2: config: Domain/Sizing/ReceiveBufferSize/#text: 1 MiB {}
+1781177111.902105 [0]       ros2: config: Domain/Sizing/ReceiveBufferChunkSize/#text: 128 KiB {}
+1781177111.902109 [0]       ros2: config: Domain/Compatibility/StandardsConformance/#text: lax {}
+1781177111.902112 [0]       ros2: config: Domain/Compatibility/ExplicitlyPublishQosSetToDefault/#text: false {}
+1781177111.902116 [0]       ros2: config: Domain/Compatibility/ManySocketsMode/#text: single {}
+1781177111.902120 [0]       ros2: config: Domain/Compatibility/AssumeRtiHasPmdEndpoints/#text: false {}
+1781177111.902124 [0]       ros2: config: Domain/Discovery/Tag/#text:  {}
+1781177111.902127 [0]       ros2: config: Domain/Discovery/ExternalDomainId/#text: 0 {}
+1781177111.902131 [0]       ros2: config: Domain/Discovery/DSGracePeriod/#text: 30 s {}
+1781177111.902135 [0]       ros2: config: Domain/Discovery/ParticipantIndex/#text: none {}
+1781177111.902139 [0]       ros2: config: Domain/Discovery/MaxAutoParticipantIndex/#text: 9 {}
+1781177111.902142 [0]       ros2: config: Domain/Discovery/SPDPMulticastAddress/#text: 239.255.0.1 {}
+1781177111.902146 [0]       ros2: config: Domain/Discovery/SPDPInterval/#text: 30 s {}
+1781177111.902150 [0]       ros2: config: Domain/Discovery/DefaultMulticastAddress/#text: auto {}
+1781177111.902154 [0]       ros2: config: Domain/Discovery/Ports/Base/#text: 7400 {}
+1781177111.902158 [0]       ros2: config: Domain/Discovery/Ports/DomainGain/#text: 250 {}
+1781177111.902162 [0]       ros2: config: Domain/Discovery/Ports/ParticipantGain/#text: 2 {}
+1781177111.902166 [0]       ros2: config: Domain/Discovery/Ports/MulticastMetaOffset/#text: 0 {}
+1781177111.902170 [0]       ros2: config: Domain/Discovery/Ports/UnicastMetaOffset/#text: 10 {}
+1781177111.902173 [0]       ros2: config: Domain/Discovery/Ports/MulticastDataOffset/#text: 1 {}
+1781177111.902177 [0]       ros2: config: Domain/Discovery/Ports/UnicastDataOffset/#text: 11 {}
+1781177111.902187 [0]       ros2: config: Domain/Discovery/EnableTopicDiscoveryEndpoints/#text: false {}
+1781177111.902191 [0]       ros2: config: Domain/Discovery/LeaseDuration/#text: 10 s {}
+1781177111.902201 [0]       ros2: config: Domain/Tracing/Category/#text: fatal,error,warning,info,config {1}
+1781177111.902205 [0]       ros2: config: Domain/Tracing/OutputFile/#text: cyclonedds.log {}
+1781177111.902208 [0]       ros2: config: Domain/Tracing/AppendToFile/#text: false {}
+1781177111.902212 [0]       ros2: config: Domain/Tracing/PacketCaptureFile/#text:  {}
+1781177111.902216 [0]       ros2: config: Domain/Internal/DeliveryQueueMaxSamples/#text: 256 {}
+1781177111.902220 [0]       ros2: config: Domain/Internal/PrimaryReorderMaxSamples/#text: 128 {}
+1781177111.902223 [0]       ros2: config: Domain/Internal/SecondaryReorderMaxSamples/#text: 128 {}
+1781177111.902227 [0]       ros2: config: Domain/Internal/DefragUnreliableMaxSamples/#text: 4 {}
+1781177111.902231 [0]       ros2: config: Domain/Internal/DefragReliableMaxSamples/#text: 16 {}
+1781177111.902234 [0]       ros2: config: Domain/Internal/BuiltinEndpointSet/#text: writers {}
+1781177111.902238 [0]       ros2: config: Domain/Internal/MeasureHbToAckLatency/#text: false {}
+1781177111.902242 [0]       ros2: config: Domain/Internal/UnicastResponseToSPDPMessages/#text: true {}
+1781177111.902246 [0]       ros2: config: Domain/Internal/SynchronousDeliveryPriorityThreshold/#text: 0 {}
+1781177111.902249 [0]       ros2: config: Domain/Internal/SynchronousDeliveryLatencyBound/#text: inf {}
+1781177111.902253 [0]       ros2: config: Domain/Internal/MaxParticipants/#text: 0 {}
+1781177111.902256 [0]       ros2: config: Domain/Internal/AccelerateRexmitBlockSize/#text: 0 {}
+1781177111.902260 [0]       ros2: config: Domain/Internal/RetransmitMerging/#text: never {}
+1781177111.902264 [0]       ros2: config: Domain/Internal/RetransmitMergingPeriod/#text: 5 ms {}
+1781177111.902268 [0]       ros2: config: Domain/Internal/HeartbeatInterval/#text: 100 ms {}
+1781177111.902272 [0]       ros2: config: Domain/Internal/HeartbeatInterval[@min]: 5 ms {}
+1781177111.902276 [0]       ros2: config: Domain/Internal/HeartbeatInterval[@minsched]: 20 ms {}
+1781177111.902280 [0]       ros2: config: Domain/Internal/HeartbeatInterval[@max]: 8 s {}
+1781177111.902283 [0]       ros2: config: Domain/Internal/MaxQueuedRexmitBytes/#text: 512 KiB {}
+1781177111.902287 [0]       ros2: config: Domain/Internal/MaxQueuedRexmitMessages/#text: 200 {}
+1781177111.902291 [0]       ros2: config: Domain/Internal/WriterLingerDuration/#text: 1 s {}
+1781177111.902295 [0]       ros2: config: Domain/Internal/SocketReceiveBufferSize[@min]: 16 MiB {1}
+1781177111.902299 [0]       ros2: config: Domain/Internal/SocketReceiveBufferSize[@max]: default {}
+1781177111.902303 [0]       ros2: config: Domain/Internal/SocketSendBufferSize[@min]: 64 KiB {}
+1781177111.902307 [0]       ros2: config: Domain/Internal/SocketSendBufferSize[@max]: default {}
+1781177111.902311 [0]       ros2: config: Domain/Internal/NackDelay/#text: 100 ms {}
+1781177111.902315 [0]       ros2: config: Domain/Internal/AckDelay/#text: 10 ms {}
+1781177111.902318 [0]       ros2: config: Domain/Internal/AutoReschedNackDelay/#text: 3 s {}
+1781177111.902322 [0]       ros2: config: Domain/Internal/PreEmptiveAckDelay/#text: 10 ms {}
+1781177111.902326 [0]       ros2: config: Domain/Internal/ScheduleTimeRounding/#text: 0 s {}
+1781177111.902330 [0]       ros2: config: Domain/Internal/DDSI2DirectMaxThreads/#text: 1 {}
+1781177111.902333 [0]       ros2: config: Domain/Internal/SquashParticipants/#text: false {}
+1781177111.902337 [0]       ros2: config: Domain/Internal/SPDPResponseMaxDelay/#text: 0 s {}
+1781177111.902341 [0]       ros2: config: Domain/Internal/LateAckMode/#text: false {}
+1781177111.902344 [0]       ros2: config: Domain/Internal/RetryOnRejectBestEffort/#text: false {}
+1781177111.902348 [0]       ros2: config: Domain/Internal/GenerateKeyhash/#text: false {}
+1781177111.902352 [0]       ros2: config: Domain/Internal/MaxSampleSize/#text: 2147483647 B {}
+1781177111.902355 [0]       ros2: config: Domain/Internal/LivelinessMonitoring/#text: false {}
+1781177111.902362 [0]       ros2: config: Domain/Internal/LivelinessMonitoring[@StackTraces]: true {}
+1781177111.902366 [0]       ros2: config: Domain/Internal/LivelinessMonitoring[@Interval]: 1 s {}
+1781177111.902370 [0]       ros2: config: Domain/Internal/MonitorPort/#text: -1 {}
+1781177111.902374 [0]       ros2: config: Domain/Internal/PrioritizeRetransmit/#text: true {}
+1781177111.902377 [0]       ros2: config: Domain/Internal/UseMulticastIfMreqn/#text: 0 {}
+1781177111.902381 [0]       ros2: config: Domain/Internal/RediscoveryBlacklistDuration/#text: 0 s {}
+1781177111.902385 [0]       ros2: config: Domain/Internal/RediscoveryBlacklistDuration[@enforce]: false {}
+1781177111.902389 [0]       ros2: config: Domain/Internal/MultipleReceiveThreads/#text: default {}
+1781177111.902393 [0]       ros2: config: Domain/Internal/MultipleReceiveThreads[@maxretries]: 4294967295 {}
+1781177111.902397 [0]       ros2: config: Domain/Internal/Test/XmitLossiness/#text: 0 {}
+1781177111.902401 [0]       ros2: config: Domain/Internal/Watermarks/WhcLow/#text: 1 KiB {}
+1781177111.902405 [0]       ros2: config: Domain/Internal/Watermarks/WhcHigh/#text: 500 KiB {1}
+1781177111.902409 [0]       ros2: config: Domain/Internal/Watermarks/WhcHighInit/#text: 30 KiB {}
+1781177111.902413 [0]       ros2: config: Domain/Internal/Watermarks/WhcAdaptive/#text: true {}
+1781177111.902418 [0]       ros2: config: Domain/Internal/BurstSize/MaxRexmit/#text: 1 MiB {}
+1781177111.902422 [0]       ros2: config: Domain/Internal/BurstSize/MaxInitTransmit/#text: 4294967295 {}
+1781177111.902426 [0]       ros2: config: Domain/Internal/EnableExpensiveChecks/#text:  {}
+1781177111.902430 [0]       ros2: config: Domain/TCP/NoDelay/#text: true {}
+1781177111.902434 [0]       ros2: config: Domain/TCP/Port/#text: -1 {}
+1781177111.902437 [0]       ros2: config: Domain/TCP/ReadTimeout/#text: 2 s {}
+1781177111.902441 [0]       ros2: config: Domain/TCP/WriteTimeout/#text: 2 s {}
+1781177111.902445 [0]       ros2: config: Domain/TCP/AlwaysUsePeeraddrForUnicast/#text: false {}
+1781177111.902449 [0]       ros2: config: Domain/SSL/Enable/#text: false {}
+1781177111.902453 [0]       ros2: config: Domain/SSL/CertificateVerification/#text: true {}
+1781177111.902456 [0]       ros2: config: Domain/SSL/VerifyClient/#text: true {}
+1781177111.902460 [0]       ros2: config: Domain/SSL/SelfSignedCertificates/#text: false {}
+1781177111.902464 [0]       ros2: config: Domain/SSL/KeystoreFile/#text: keystore {}
+1781177111.902467 [0]       ros2: config: Domain/SSL/KeyPassphrase/#text: secret {}
+1781177111.902471 [0]       ros2: config: Domain/SSL/Ciphers/#text: ALL:!ADH:!LOW:!EXP:!MD5:@STRENGTH {}
+1781177111.902475 [0]       ros2: config: Domain/SSL/EntropyFile/#text:  {}
+1781177111.902479 [0]       ros2: config: Domain/SSL/MinimumTLSVersion/#text: 1.3 {}
+1781177111.902483 [0]       ros2: config: Domain/SharedMemory/Enable/#text: false {}
+1781177111.902486 [0]       ros2: config: Domain/SharedMemory/Locator/#text:  {}
+1781177111.902490 [0]       ros2: config: Domain/SharedMemory/Prefix/#text: DDS_CYCLONE {}
+1781177111.902494 [0]       ros2: config: Domain/SharedMemory/LogLevel/#text: info {}
+1781177111.902498 [0]       ros2: config: Domain[@Id]: 0 {1}
+1781177111.902524 [0]       ros2: started at 1781177111.06902506 -- 2026-06-11 19:25:11+08:00
+1781177111.902528 [0]       ros2: udp initialized
+1781177111.903601 [0]       ros2: interfaces: lo udp/127.0.0.1(q1) enp2s0 udp/192.168.2.88(q9) enx344b50000000 udp/192.168.0.100(q9) wlp3s0 wireless udp/192.168.0.101(q9) br-43d3a33f8280 udp/172.18.0.1(q9) docker0 udp/172.17.0.1(q9)
+1781177111.903624 [0]       ros2: selected interfaces: docker0 (index 6 priority 0)
+1781177111.903628 [0]       ros2: presumed robust multicast support, use for everything
+1781177111.903651 [0]       ros2: ownip: udp/172.17.0.1
+1781177111.903653 [0]       ros2: extmask: invalid/0 (not applicable)
+1781177111.903655 [0]       ros2: SPDP MC: udp/239.255.0.1
+1781177111.903657 [0]       ros2: default MC: udp/239.255.0.1
+1781177111.903677 [0]       ros2: SSM support included
+1781177111.903795 [0]       ros2: socket receive buffer size set to 33554432 bytes
+1781177111.903807 [0]       ros2: rtps_init: uc ports: disc 0 data 0
+1781177111.903809 [0]       ros2: rtps_init: domainid 0 participantid -2
+1781177111.903810 [0]       ros2: Unicast Ports: discovery 49921 data 49921
+1781177111.903817 [0]       ros2: socket receive buffer size set to 33554432 bytes
+1781177111.903832 [0]       ros2: socket receive buffer size set to 33554432 bytes
+1781177111.903837 [0]       ros2: Multicast Ports: discovery 7400 data 7401 
+1781177111.903842 [0]       ros2: socket receive buffer size set to 33554432 bytes
+1781177111.903848 [0]       ros2: interface docker0: transmit port 51781177258.122952 [0]    python3: udp finalized
+1781177258.123622 [0]    python3: Finis.
+nis.
