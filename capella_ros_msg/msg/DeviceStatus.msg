@@ -34,7 +34,7 @@ uint8 s_roll_motor_stu #室外（滾刷）电机开关状态:0x00:洗地滚刷�
 
 bool spray_water_stu #室外洒水工作状态： false是未放清水，true是正在放清水
 
-bool electric_brake_run_stu #电磁刹运行状态，true为刹车，false为松开刹车
+uint8 electric_brake_run_stu #电磁刹运行状态，0x01为刹车，0x00为松开刹车,0x02为刹车，还在溜的异常
 
 int8 left_motor_temp #中菱电机的左侧电机温度，-127~127，单位1°
 int8 right_motor_temp #中菱电机的右侧电机温度，-127~127，单位1°
