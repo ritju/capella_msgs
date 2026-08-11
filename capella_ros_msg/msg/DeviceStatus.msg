@@ -58,9 +58,9 @@ uint16 s1_roll_fault_stu #S1滚刷电机故障状态
 uint16 left_disc_fault_stu #g3左盘刷故障状态
 uint16 right_disc_fault_stu #g3右盘刷故障状态
 
+uint16 msg_var #消息版本
+
 bool horn_stu   #喇叭运行状态
 uint8 float_switch_stu #污水箱浮球状态，0x00污水箱为空，0x01 为15%，0x02为60% 0x03为100%
-
-uint16 msg_var #消息版本
 
 bool magnet_push_stu #胶皮推杆电机运行状态，bool型，false为抬升状态，true为降下状态
