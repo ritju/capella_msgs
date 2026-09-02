@@ -24,6 +24,7 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SwitchMode.srv"
   "srv/SwitchResolution.srv"
@@ -51,6 +52,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/StartDetectApriltag.srv"
   "srv/StopDetectApriltag.srv"
   "srv/GetDetectApriltagStatus.srv"
+  "srv/ChargeStart.srv"
+  "srv/DockStart.srv"
   DEPENDENCIES nav_msgs
   DEPENDENCIES sensor_msgs
   DEPENDENCIES std_msgs

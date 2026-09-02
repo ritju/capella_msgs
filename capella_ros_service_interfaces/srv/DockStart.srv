@@ -1,7 +1,7 @@
 string mac
 string marker
 string protocol
-geometry_msgs/msg/Pose delta
+geometry_msgs/Pose delta
 ---
 uint16 code
 string message
