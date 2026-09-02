@@ -57,6 +57,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   DEPENDENCIES nav_msgs
   DEPENDENCIES sensor_msgs
   DEPENDENCIES std_msgs
+  DEPENDENCIES geometry_msgs
  )
 
 if(BUILD_TESTING)
