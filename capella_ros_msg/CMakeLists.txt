@@ -26,6 +26,7 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
+find_package(builtin_interfaces REQUIRED)
 
 #添加消息文件和依�?
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -68,6 +69,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LineSegment.msg"
   "msg/MultiCurve.msg"
   "msg/CurveSegment.msg"
+  "msg/FireEscapeOccupied.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
