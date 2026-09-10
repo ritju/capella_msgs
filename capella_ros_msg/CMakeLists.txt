@@ -70,6 +70,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MultiCurve.msg"
   "msg/CurveSegment.msg"
   "msg/FireEscapeOccupied.msg"
+  "msg/PolygonWithId.msg"
+  "msg/PolygonsWithId.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
