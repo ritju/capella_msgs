@@ -24,6 +24,9 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(rclcpp_action REQUIRED)
+find_package(rclcpp_components REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FrameCaptured.msg"
   "msg/NumberCaptured.msg"
@@ -49,6 +52,24 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   DEPENDENCIES std_msgs
  )
 
+add_executable(stub_server
+  src/stub_server.cpp
+)
+ament_target_dependencies(stub_server
+  rclcpp
+  std_msgs
+  nav_msgs
+  sensor_msgs
+)
+target_link_libraries(stub_server
+  camera_calibrate_msgs__rosidl_generator_cpp
+  camera_calibrate_msgs__rosidl_typesupport_cpp
+)
+target_include_directories(stub_server
+  PRIVATE
+  ${CMAKE_CURRENT_BINARY_DIR}/rosidl_generator_cpp
+)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -60,4 +81,12 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}
+)
+install(TARGETS
+  stub_server
+  DESTINATION lib/${PROJECT_NAME}
+)
 ament_package()
