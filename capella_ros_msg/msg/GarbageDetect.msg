@@ -12,3 +12,12 @@ int8 class_id
 
 # 垃圾的边界框角点
 geometry_msgs/Point[] bbox_corner_points
+
+# 树叶
+uint8 LEAFS=2
+
+uint8 SEWAGE=3
+
+uint8 TISSUSE=4
+
+int8 class_code
