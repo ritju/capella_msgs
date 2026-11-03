@@ -72,6 +72,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FireEscapeOccupied.msg"
   "msg/PolygonWithId.msg"
   "msg/PolygonsWithId.msg"
+  "msg/VehiclePointCloud.msg"
+  "msg/VehiclePointCloudArray.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
