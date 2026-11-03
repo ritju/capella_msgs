@@ -72,6 +72,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FireEscapeOccupied.msg"
   "msg/PolygonWithId.msg"
   "msg/PolygonsWithId.msg"
+  "msg/ParameterDefinition.msg"
+  "msg/ParameterDefinitionArray.msg"
+  "msg/ParameterRuntime.msg"
+  "msg/ParameterRuntimeArray.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
