@@ -76,6 +76,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ParameterDefinitionArray.msg"
   "msg/ParameterRuntime.msg"
   "msg/ParameterRuntimeArray.msg"
+  "msg/FrontSteerDriveCmd.msg"
+  "msg/FrontSteerDriveStu.msg"
   #---srv---
   "srv/ChargePileWifi.srv"
   "srv/TurnoffPcPower.srv"
