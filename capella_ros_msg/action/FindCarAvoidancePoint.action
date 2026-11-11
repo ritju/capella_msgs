@@ -5,9 +5,13 @@ geometry_msgs/Polygon[] polygons
 geometry_msgs/Vector3 car_size
 # 汽车的位姿
 geometry_msgs/PoseStamped car_pose
+# false 只搜近侧长边；双侧树允许远侧时显式传 true
+bool enable_far_side false
 ---
 # Result
-# 汽车相对map坐标系的位姿
+# 汽车相对map坐标系的位姿。position.z 仍表示点来源：10 自搜索/原地，20 通道内外部点，30 通道外外部点
 geometry_msgs/PoseStamped pose
+# 1 近侧自搜索，2 远侧自搜索，3 外部固定停车点，0 未找到
+uint8 side 0
 ---
 # Feedback
