@@ -69,6 +69,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LineSegment.msg"
   "msg/MultiCurve.msg"
   "msg/CurveSegment.msg"
+  "msg/BSplineSegment.msg"
   "msg/FireEscapeOccupied.msg"
   "msg/PolygonWithId.msg"
   "msg/PolygonsWithId.msg"
